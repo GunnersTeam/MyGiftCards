@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067603EF1C8056B200B4F7B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 067603EE1C8056B200B4F7B5 /* main.m */; };
+		067603F21C8056B200B4F7B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 067603F11C8056B200B4F7B5 /* AppDelegate.m */; };
+		067603F51C8056B200B4F7B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067603F41C8056B200B4F7B5 /* ViewController.m */; };
+		067603F81C8056B200B4F7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067603F61C8056B200B4F7B5 /* Main.storyboard */; };
+		067603FA1C8056B200B4F7B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067603F91C8056B200B4F7B5 /* Assets.xcassets */; };
+		067603FD1C8056B200B4F7B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067603FB1C8056B200B4F7B5 /* LaunchScreen.storyboard */; };
+		067604081C8056B200B4F7B5 /* MyGiftCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 067604071C8056B200B4F7B5 /* MyGiftCardTests.m */; };
+		067604131C8056B200B4F7B5 /* MyGiftCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 067604121C8056B200B4F7B5 /* MyGiftCardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		067604041C8056B200B4F7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 067603E21C8056B100B4F7B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 067603E91C8056B100B4F7B5;
+			remoteInfo = MyGiftCard;
+		};
+		0676040F1C8056B200B4F7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 067603E21C8056B100B4F7B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 067603E91C8056B100B4F7B5;
+			remoteInfo = MyGiftCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067603EA1C8056B100B4F7B5 /* MyGiftCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGiftCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		067603EE1C8056B200B4F7B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		067603F01C8056B200B4F7B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		067603F11C8056B200B4F7B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		067603F31C8056B200B4F7B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		067603F41C8056B200B4F7B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		067603F71C8056B200B4F7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		067603F91C8056B200B4F7B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		067603FC1C8056B200B4F7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		067603FE1C8056B200B4F7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067604031C8056B200B4F7B5 /* MyGiftCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGiftCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		067604071C8056B200B4F7B5 /* MyGiftCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGiftCardTests.m; sourceTree = "<group>"; };
+		067604091C8056B200B4F7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0676040E1C8056B200B4F7B5 /* MyGiftCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGiftCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		067604121C8056B200B4F7B5 /* MyGiftCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGiftCardUITests.m; sourceTree = "<group>"; };
+		067604141C8056B200B4F7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067603E71C8056B100B4F7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067604001C8056B200B4F7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0676040B1C8056B200B4F7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067603E11C8056B100B4F7B5 = {
+			isa = PBXGroup;
+			children = (
+				067603EC1C8056B100B4F7B5 /* MyGiftCard */,
+				067604061C8056B200B4F7B5 /* MyGiftCardTests */,
+				067604111C8056B200B4F7B5 /* MyGiftCardUITests */,
+				067603EB1C8056B100B4F7B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		067603EB1C8056B100B4F7B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067603EA1C8056B100B4F7B5 /* MyGiftCard.app */,
+				067604031C8056B200B4F7B5 /* MyGiftCardTests.xctest */,
+				0676040E1C8056B200B4F7B5 /* MyGiftCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067603EC1C8056B100B4F7B5 /* MyGiftCard */ = {
+			isa = PBXGroup;
+			children = (
+				067603F01C8056B200B4F7B5 /* AppDelegate.h */,
+				067603F11C8056B200B4F7B5 /* AppDelegate.m */,
+				067603F31C8056B200B4F7B5 /* ViewController.h */,
+				067603F41C8056B200B4F7B5 /* ViewController.m */,
+				067603F61C8056B200B4F7B5 /* Main.storyboard */,
+				067603F91C8056B200B4F7B5 /* Assets.xcassets */,
+				067603FB1C8056B200B4F7B5 /* LaunchScreen.storyboard */,
+				067603FE1C8056B200B4F7B5 /* Info.plist */,
+				067603ED1C8056B200B4F7B5 /* Supporting Files */,
+			);
+			path = MyGiftCard;
+			sourceTree = "<group>";
+		};
+		067603ED1C8056B200B4F7B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				067603EE1C8056B200B4F7B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		067604061C8056B200B4F7B5 /* MyGiftCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				067604071C8056B200B4F7B5 /* MyGiftCardTests.m */,
+				067604091C8056B200B4F7B5 /* Info.plist */,
+			);
+			path = MyGiftCardTests;
+			sourceTree = "<group>";
+		};
+		067604111C8056B200B4F7B5 /* MyGiftCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				067604121C8056B200B4F7B5 /* MyGiftCardUITests.m */,
+				067604141C8056B200B4F7B5 /* Info.plist */,
+			);
+			path = MyGiftCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		067603E91C8056B100B4F7B5 /* MyGiftCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067604171C8056B200B4F7B5 /* Build configuration list for PBXNativeTarget "MyGiftCard" */;
+			buildPhases = (
+				067603E61C8056B100B4F7B5 /* Sources */,
+				067603E71C8056B100B4F7B5 /* Frameworks */,
+				067603E81C8056B100B4F7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyGiftCard;
+			productName = MyGiftCard;
+			productReference = 067603EA1C8056B100B4F7B5 /* MyGiftCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		067604021C8056B200B4F7B5 /* MyGiftCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0676041A1C8056B200B4F7B5 /* Build configuration list for PBXNativeTarget "MyGiftCardTests" */;
+			buildPhases = (
+				067603FF1C8056B200B4F7B5 /* Sources */,
+				067604001C8056B200B4F7B5 /* Frameworks */,
+				067604011C8056B200B4F7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				067604051C8056B200B4F7B5 /* PBXTargetDependency */,
+			);
+			name = MyGiftCardTests;
+			productName = MyGiftCardTests;
+			productReference = 067604031C8056B200B4F7B5 /* MyGiftCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0676040D1C8056B200B4F7B5 /* MyGiftCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0676041D1C8056B200B4F7B5 /* Build configuration list for PBXNativeTarget "MyGiftCardUITests" */;
+			buildPhases = (
+				0676040A1C8056B200B4F7B5 /* Sources */,
+				0676040B1C8056B200B4F7B5 /* Frameworks */,
+				0676040C1C8056B200B4F7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				067604101C8056B200B4F7B5 /* PBXTargetDependency */,
+			);
+			name = MyGiftCardUITests;
+			productName = MyGiftCardUITests;
+			productReference = 0676040E1C8056B200B4F7B5 /* MyGiftCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067603E21C8056B100B4F7B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ahmed Madeh";
+				TargetAttributes = {
+					067603E91C8056B100B4F7B5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					067604021C8056B200B4F7B5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 067603E91C8056B100B4F7B5;
+					};
+					0676040D1C8056B200B4F7B5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 067603E91C8056B100B4F7B5;
+					};
+				};
+			};
+			buildConfigurationList = 067603E51C8056B100B4F7B5 /* Build configuration list for PBXProject "MyGiftCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 067603E11C8056B100B4F7B5;
+			productRefGroup = 067603EB1C8056B100B4F7B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				067603E91C8056B100B4F7B5 /* MyGiftCard */,
+				067604021C8056B200B4F7B5 /* MyGiftCardTests */,
+				0676040D1C8056B200B4F7B5 /* MyGiftCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067603E81C8056B100B4F7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067603FD1C8056B200B4F7B5 /* LaunchScreen.storyboard in Resources */,
+				067603FA1C8056B200B4F7B5 /* Assets.xcassets in Resources */,
+				067603F81C8056B200B4F7B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067604011C8056B200B4F7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0676040C1C8056B200B4F7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067603E61C8056B100B4F7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067603F51C8056B200B4F7B5 /* ViewController.m in Sources */,
+				067603F21C8056B200B4F7B5 /* AppDelegate.m in Sources */,
+				067603EF1C8056B200B4F7B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067603FF1C8056B200B4F7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067604081C8056B200B4F7B5 /* MyGiftCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0676040A1C8056B200B4F7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067604131C8056B200B4F7B5 /* MyGiftCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		067604051C8056B200B4F7B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 067603E91C8056B100B4F7B5 /* MyGiftCard */;
+			targetProxy = 067604041C8056B200B4F7B5 /* PBXContainerItemProxy */;
+		};
+		067604101C8056B200B4F7B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 067603E91C8056B100B4F7B5 /* MyGiftCard */;
+			targetProxy = 0676040F1C8056B200B4F7B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		067603F61C8056B200B4F7B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067603F71C8056B200B4F7B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		067603FB1C8056B200B4F7B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067603FC1C8056B200B4F7B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		067604151C8056B200B4F7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		067604161C8056B200B4F7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		067604181C8056B200B4F7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyGiftCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spellad.MyGiftCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		067604191C8056B200B4F7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyGiftCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spellad.MyGiftCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0676041B1C8056B200B4F7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyGiftCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spellad.MyGiftCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGiftCard.app/MyGiftCard";
+			};
+			name = Debug;
+		};
+		0676041C1C8056B200B4F7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyGiftCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spellad.MyGiftCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGiftCard.app/MyGiftCard";
+			};
+			name = Release;
+		};
+		0676041E1C8056B200B4F7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyGiftCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spellad.MyGiftCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyGiftCard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0676041F1C8056B200B4F7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyGiftCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spellad.MyGiftCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyGiftCard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067603E51C8056B100B4F7B5 /* Build configuration list for PBXProject "MyGiftCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067604151C8056B200B4F7B5 /* Debug */,
+				067604161C8056B200B4F7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067604171C8056B200B4F7B5 /* Build configuration list for PBXNativeTarget "MyGiftCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067604181C8056B200B4F7B5 /* Debug */,
+				067604191C8056B200B4F7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0676041A1C8056B200B4F7B5 /* Build configuration list for PBXNativeTarget "MyGiftCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0676041B1C8056B200B4F7B5 /* Debug */,
+				0676041C1C8056B200B4F7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0676041D1C8056B200B4F7B5 /* Build configuration list for PBXNativeTarget "MyGiftCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0676041E1C8056B200B4F7B5 /* Debug */,
+				0676041F1C8056B200B4F7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 067603E21C8056B100B4F7B5 /* Project object */;
+}
