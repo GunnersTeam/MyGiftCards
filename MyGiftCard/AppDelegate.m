@@ -17,6 +17,46 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIStoryboard* storyboard;
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"user_name"])
+    {
+        storyboard = [UIStoryboard storyboardWithName:@"Home" bundle:[NSBundle mainBundle]];
+        HomeViewController* mainVC = [storyboard instantiateViewControllerWithIdentifier:@"home"];
+        
+        storyboard = [UIStoryboard storyboardWithName:@"Event" bundle:[NSBundle mainBundle]];
+        CustomCalendarViewController* eventVc = [storyboard instantiateViewControllerWithIdentifier:@"event"];
+        
+        storyboard = [UIStoryboard storyboardWithName:@"Wishlist" bundle:[NSBundle mainBundle]];
+        WishlistViewController* wishVc = [storyboard instantiateViewControllerWithIdentifier:@"wish"];
+
+        UITabBarController* tabBarController = [[UITabBarController alloc] init];
+        UINavigationController* navigationController = [[UINavigationController alloc] initWithRootViewController:tabBarController];
+        navigationController.navigationBarHidden = YES;
+        [tabBarController setViewControllers:[NSArray arrayWithObjects:mainVC, eventVc, wishVc, nil]];
+        
+//        [[tabBarController.tabBar.items objectAtIndex:0] setTitle:@"Home"];
+//        [[tabBarController.tabBar.items objectAtIndex:1] setTitle:@"Events"];
+//        [[tabBarController.tabBar.items objectAtIndex:2] setTitle:@"Wishlist"];
+
+        [[tabBarController.tabBar.items objectAtIndex:0] setImage:[UIImage imageNamed:@"Home"]];
+        [[tabBarController.tabBar.items objectAtIndex:0] setSelectedImage:[UIImage imageNamed:@"HomeSelected"]];
+        [[tabBarController.tabBar.items objectAtIndex:1] setImage:[UIImage imageNamed:@"Event"]];
+        [[tabBarController.tabBar.items objectAtIndex:1] setSelectedImage:[UIImage imageNamed:@"EventSelected"]];
+        [[tabBarController.tabBar.items objectAtIndex:2] setImage:[UIImage imageNamed:@"Wishlist"]];
+        [[tabBarController.tabBar.items objectAtIndex:2] setSelectedImage:[UIImage imageNamed:@"WishlistSelected"]];
+        
+        [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"buttom_bar.png"]];
+        //    [[UITabBar appearance] setBackgroundColor:[UIColor colorWithRed:219/255.0 green:252/255.0 blue:255/255.0 alpha:1.0]];
+
+//        [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"buttom_bar.png"]];
+//        [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:12.0/255.0 green:86.0/255.0 blue:151.0/255.0 alpha:1.0]} forState:UIControlStateNormal];
+//        [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:203.0/255.0 green:0.0/255.0 blue:10.0/255.0 alpha:1.0]} forState:UIControlStateSelected];
+        
+        [tabBarController setSelectedIndex:0];
+        
+        self.window.rootViewController = navigationController;
+        [self.window makeKeyAndVisible];
+    }
     return YES;
 }
 

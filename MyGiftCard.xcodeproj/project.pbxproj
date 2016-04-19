@@ -9,12 +9,44 @@
 /* Begin PBXBuildFile section */
 		067603EF1C8056B200B4F7B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 067603EE1C8056B200B4F7B5 /* main.m */; };
 		067603F21C8056B200B4F7B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 067603F11C8056B200B4F7B5 /* AppDelegate.m */; };
-		067603F51C8056B200B4F7B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067603F41C8056B200B4F7B5 /* ViewController.m */; };
-		067603F81C8056B200B4F7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067603F61C8056B200B4F7B5 /* Main.storyboard */; };
 		067603FA1C8056B200B4F7B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067603F91C8056B200B4F7B5 /* Assets.xcassets */; };
 		067603FD1C8056B200B4F7B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067603FB1C8056B200B4F7B5 /* LaunchScreen.storyboard */; };
 		067604081C8056B200B4F7B5 /* MyGiftCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 067604071C8056B200B4F7B5 /* MyGiftCardTests.m */; };
 		067604131C8056B200B4F7B5 /* MyGiftCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 067604121C8056B200B4F7B5 /* MyGiftCardUITests.m */; };
+		0691AABF1C846109005FF8D3 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAB71C846109005FF8D3 /* green.png */; };
+		0691AAC01C846109005FF8D3 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAB81C846109005FF8D3 /* red.png */; };
+		0691AAC11C846109005FF8D3 /* top_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAB91C846109005FF8D3 /* top_bar.png */; };
+		0691AAC21C846109005FF8D3 /* Wishlist.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0691AABA1C846109005FF8D3 /* Wishlist.storyboard */; };
+		0691AAC31C846109005FF8D3 /* WishlistCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691AABC1C846109005FF8D3 /* WishlistCollectionViewCell.m */; };
+		0691AAC41C846109005FF8D3 /* WishlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691AABE1C846109005FF8D3 /* WishlistViewController.m */; };
+		0691AAD51C846115005FF8D3 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691AAC71C846115005FF8D3 /* CalendarView.m */; };
+		0691AAD61C846115005FF8D3 /* CustomCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691AAC91C846115005FF8D3 /* CustomCalendarViewController.m */; };
+		0691AAD71C846115005FF8D3 /* Event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0691AACA1C846115005FF8D3 /* Event.storyboard */; };
+		0691AAD81C846115005FF8D3 /* EventsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691AACC1C846115005FF8D3 /* EventsTableViewCell.m */; };
+		0691AADA1C846115005FF8D3 /* event_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAD01C846115005FF8D3 /* event_pic.png */; };
+		0691AADB1C846115005FF8D3 /* left_arrow_calender.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAD11C846115005FF8D3 /* left_arrow_calender.png */; };
+		0691AADC1C846115005FF8D3 /* right_arrow_calender.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAD21C846115005FF8D3 /* right_arrow_calender.png */; };
+		0691AADD1C846115005FF8D3 /* thin_blue_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAD31C846115005FF8D3 /* thin_blue_bar.png */; };
+		0691AADE1C846115005FF8D3 /* top_thin_blue_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAD41C846115005FF8D3 /* top_thin_blue_bar.png */; };
+		0691AAF01C84611D005FF8D3 /* CardDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691AAE11C84611D005FF8D3 /* CardDetailsViewController.m */; };
+		0691AAF11C84611D005FF8D3 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAE21C84611D005FF8D3 /* Home.storyboard */; };
+		0691AAF21C84611D005FF8D3 /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691AAE41C84611D005FF8D3 /* HomeCollectionViewCell.m */; };
+		0691AAF31C84611D005FF8D3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691AAE61C84611D005FF8D3 /* HomeViewController.m */; };
+		0691AAF41C84611D005FF8D3 /* buttom_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAE81C84611D005FF8D3 /* buttom_bar.png */; };
+		0691AAF51C84611D005FF8D3 /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAE91C84611D005FF8D3 /* card.png */; };
+		0691AAF61C84611D005FF8D3 /* Hallmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAEA1C84611D005FF8D3 /* Hallmark.png */; };
+		0691AAF71C84611D005FF8D3 /* sephora.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAEB1C84611D005FF8D3 /* sephora.png */; };
+		0691AAF81C84611D005FF8D3 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAEC1C84611D005FF8D3 /* star.png */; };
+		0691AAF91C84611D005FF8D3 /* the_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAED1C84611D005FF8D3 /* the_home.png */; };
+		0691AAFA1C84611D005FF8D3 /* under_card_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAEE1C84611D005FF8D3 /* under_card_bar.png */; };
+		0691AAFB1C84611D005FF8D3 /* wallmart.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAEF1C84611D005FF8D3 /* wallmart.png */; };
+		0691AB051C846125005FF8D3 /* field.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAFE1C846125005FF8D3 /* field.png */; };
+		0691AB061C846125005FF8D3 /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AAFF1C846125005FF8D3 /* login_button.png */; };
+		0691AB071C846125005FF8D3 /* login_view.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AB001C846125005FF8D3 /* login_view.png */; };
+		0691AB081C846125005FF8D3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AB011C846125005FF8D3 /* logo.png */; };
+		0691AB091C846125005FF8D3 /* Login&Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0691AB021C846125005FF8D3 /* Login&Register.storyboard */; };
+		0691AB0A1C846125005FF8D3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691AB041C846125005FF8D3 /* LoginViewController.m */; };
+		0691AB0E1C848C30005FF8D3 /* buttom_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0691AB0D1C848C30005FF8D3 /* buttom_bar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +71,6 @@
 		067603EE1C8056B200B4F7B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		067603F01C8056B200B4F7B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		067603F11C8056B200B4F7B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		067603F31C8056B200B4F7B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		067603F41C8056B200B4F7B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		067603F71C8056B200B4F7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		067603F91C8056B200B4F7B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		067603FC1C8056B200B4F7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		067603FE1C8056B200B4F7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +80,49 @@
 		0676040E1C8056B200B4F7B5 /* MyGiftCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGiftCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		067604121C8056B200B4F7B5 /* MyGiftCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGiftCardUITests.m; sourceTree = "<group>"; };
 		067604141C8056B200B4F7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0691AAB71C846109005FF8D3 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		0691AAB81C846109005FF8D3 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		0691AAB91C846109005FF8D3 /* top_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_bar.png; sourceTree = "<group>"; };
+		0691AABA1C846109005FF8D3 /* Wishlist.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wishlist.storyboard; sourceTree = "<group>"; };
+		0691AABB1C846109005FF8D3 /* WishlistCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishlistCollectionViewCell.h; sourceTree = "<group>"; };
+		0691AABC1C846109005FF8D3 /* WishlistCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishlistCollectionViewCell.m; sourceTree = "<group>"; };
+		0691AABD1C846109005FF8D3 /* WishlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishlistViewController.h; sourceTree = "<group>"; };
+		0691AABE1C846109005FF8D3 /* WishlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishlistViewController.m; sourceTree = "<group>"; };
+		0691AAC61C846115005FF8D3 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		0691AAC71C846115005FF8D3 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		0691AAC81C846115005FF8D3 /* CustomCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalendarViewController.h; sourceTree = "<group>"; };
+		0691AAC91C846115005FF8D3 /* CustomCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalendarViewController.m; sourceTree = "<group>"; };
+		0691AACA1C846115005FF8D3 /* Event.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Event.storyboard; sourceTree = "<group>"; };
+		0691AACB1C846115005FF8D3 /* EventsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewCell.h; sourceTree = "<group>"; };
+		0691AACC1C846115005FF8D3 /* EventsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsTableViewCell.m; sourceTree = "<group>"; };
+		0691AAD01C846115005FF8D3 /* event_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event_pic.png; sourceTree = "<group>"; };
+		0691AAD11C846115005FF8D3 /* left_arrow_calender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow_calender.png; sourceTree = "<group>"; };
+		0691AAD21C846115005FF8D3 /* right_arrow_calender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow_calender.png; sourceTree = "<group>"; };
+		0691AAD31C846115005FF8D3 /* thin_blue_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thin_blue_bar.png; sourceTree = "<group>"; };
+		0691AAD41C846115005FF8D3 /* top_thin_blue_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_thin_blue_bar.png; sourceTree = "<group>"; };
+		0691AAE01C84611D005FF8D3 /* CardDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetailsViewController.h; sourceTree = "<group>"; };
+		0691AAE11C84611D005FF8D3 /* CardDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDetailsViewController.m; sourceTree = "<group>"; };
+		0691AAE21C84611D005FF8D3 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		0691AAE31C84611D005FF8D3 /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		0691AAE41C84611D005FF8D3 /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		0691AAE51C84611D005FF8D3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0691AAE61C84611D005FF8D3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0691AAE81C84611D005FF8D3 /* buttom_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttom_bar.png; sourceTree = "<group>"; };
+		0691AAE91C84611D005FF8D3 /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card.png; sourceTree = "<group>"; };
+		0691AAEA1C84611D005FF8D3 /* Hallmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hallmark.png; sourceTree = "<group>"; };
+		0691AAEB1C84611D005FF8D3 /* sephora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sephora.png; sourceTree = "<group>"; };
+		0691AAEC1C84611D005FF8D3 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		0691AAED1C84611D005FF8D3 /* the_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_home.png; sourceTree = "<group>"; };
+		0691AAEE1C84611D005FF8D3 /* under_card_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = under_card_bar.png; sourceTree = "<group>"; };
+		0691AAEF1C84611D005FF8D3 /* wallmart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallmart.png; sourceTree = "<group>"; };
+		0691AAFE1C846125005FF8D3 /* field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field.png; sourceTree = "<group>"; };
+		0691AAFF1C846125005FF8D3 /* login_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_button.png; sourceTree = "<group>"; };
+		0691AB001C846125005FF8D3 /* login_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_view.png; sourceTree = "<group>"; };
+		0691AB011C846125005FF8D3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		0691AB021C846125005FF8D3 /* Login&Register.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Login&Register.storyboard"; sourceTree = "<group>"; };
+		0691AB031C846125005FF8D3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0691AB041C846125005FF8D3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0691AB0D1C848C30005FF8D3 /* buttom_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttom_bar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +175,10 @@
 			children = (
 				067603F01C8056B200B4F7B5 /* AppDelegate.h */,
 				067603F11C8056B200B4F7B5 /* AppDelegate.m */,
-				067603F31C8056B200B4F7B5 /* ViewController.h */,
-				067603F41C8056B200B4F7B5 /* ViewController.m */,
-				067603F61C8056B200B4F7B5 /* Main.storyboard */,
+				0691AAFC1C846125005FF8D3 /* Login & Register */,
+				0691AADF1C84611D005FF8D3 /* Home */,
+				0691AAC51C846115005FF8D3 /* Events */,
+				0691AAB51C846109005FF8D3 /* Wishlists */,
 				067603F91C8056B200B4F7B5 /* Assets.xcassets */,
 				067603FB1C8056B200B4F7B5 /* LaunchScreen.storyboard */,
 				067603FE1C8056B200B4F7B5 /* Info.plist */,
@@ -138,6 +211,109 @@
 				067604141C8056B200B4F7B5 /* Info.plist */,
 			);
 			path = MyGiftCardUITests;
+			sourceTree = "<group>";
+		};
+		0691AAB51C846109005FF8D3 /* Wishlists */ = {
+			isa = PBXGroup;
+			children = (
+				0691AAB61C846109005FF8D3 /* Images */,
+				0691AABA1C846109005FF8D3 /* Wishlist.storyboard */,
+				0691AABD1C846109005FF8D3 /* WishlistViewController.h */,
+				0691AABE1C846109005FF8D3 /* WishlistViewController.m */,
+				0691AABB1C846109005FF8D3 /* WishlistCollectionViewCell.h */,
+				0691AABC1C846109005FF8D3 /* WishlistCollectionViewCell.m */,
+			);
+			path = Wishlists;
+			sourceTree = "<group>";
+		};
+		0691AAB61C846109005FF8D3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0691AAB71C846109005FF8D3 /* green.png */,
+				0691AAB81C846109005FF8D3 /* red.png */,
+				0691AAB91C846109005FF8D3 /* top_bar.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0691AAC51C846115005FF8D3 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				0691AACF1C846115005FF8D3 /* Images */,
+				0691AACA1C846115005FF8D3 /* Event.storyboard */,
+				0691AAC81C846115005FF8D3 /* CustomCalendarViewController.h */,
+				0691AAC91C846115005FF8D3 /* CustomCalendarViewController.m */,
+				0691AACB1C846115005FF8D3 /* EventsTableViewCell.h */,
+				0691AACC1C846115005FF8D3 /* EventsTableViewCell.m */,
+				0691AAC61C846115005FF8D3 /* CalendarView.h */,
+				0691AAC71C846115005FF8D3 /* CalendarView.m */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		0691AACF1C846115005FF8D3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0691AAD01C846115005FF8D3 /* event_pic.png */,
+				0691AAD11C846115005FF8D3 /* left_arrow_calender.png */,
+				0691AAD21C846115005FF8D3 /* right_arrow_calender.png */,
+				0691AAD31C846115005FF8D3 /* thin_blue_bar.png */,
+				0691AAD41C846115005FF8D3 /* top_thin_blue_bar.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0691AADF1C84611D005FF8D3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0691AAE71C84611D005FF8D3 /* Images */,
+				0691AAE21C84611D005FF8D3 /* Home.storyboard */,
+				0691AAE51C84611D005FF8D3 /* HomeViewController.h */,
+				0691AAE61C84611D005FF8D3 /* HomeViewController.m */,
+				0691AAE31C84611D005FF8D3 /* HomeCollectionViewCell.h */,
+				0691AAE41C84611D005FF8D3 /* HomeCollectionViewCell.m */,
+				0691AAE01C84611D005FF8D3 /* CardDetailsViewController.h */,
+				0691AAE11C84611D005FF8D3 /* CardDetailsViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0691AAE71C84611D005FF8D3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0691AAE81C84611D005FF8D3 /* buttom_bar.png */,
+				0691AAE91C84611D005FF8D3 /* card.png */,
+				0691AAEA1C84611D005FF8D3 /* Hallmark.png */,
+				0691AAEB1C84611D005FF8D3 /* sephora.png */,
+				0691AAEC1C84611D005FF8D3 /* star.png */,
+				0691AAED1C84611D005FF8D3 /* the_home.png */,
+				0691AAEE1C84611D005FF8D3 /* under_card_bar.png */,
+				0691AAEF1C84611D005FF8D3 /* wallmart.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0691AAFC1C846125005FF8D3 /* Login & Register */ = {
+			isa = PBXGroup;
+			children = (
+				0691AAFD1C846125005FF8D3 /* Images */,
+				0691AB021C846125005FF8D3 /* Login&Register.storyboard */,
+				0691AB031C846125005FF8D3 /* LoginViewController.h */,
+				0691AB041C846125005FF8D3 /* LoginViewController.m */,
+			);
+			path = "Login & Register";
+			sourceTree = "<group>";
+		};
+		0691AAFD1C846125005FF8D3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0691AAFE1C846125005FF8D3 /* field.png */,
+				0691AAFF1C846125005FF8D3 /* login_button.png */,
+				0691AB001C846125005FF8D3 /* login_view.png */,
+				0691AB011C846125005FF8D3 /* logo.png */,
+				0691AB0D1C848C30005FF8D3 /* buttom_bar.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +383,7 @@
 				TargetAttributes = {
 					067603E91C8056B100B4F7B5 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EC9SN5W46D;
 					};
 					067604021C8056B200B4F7B5 = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,9 +420,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0691AAFA1C84611D005FF8D3 /* under_card_bar.png in Resources */,
+				0691AADC1C846115005FF8D3 /* right_arrow_calender.png in Resources */,
+				0691AB0E1C848C30005FF8D3 /* buttom_bar.png in Resources */,
+				0691AADB1C846115005FF8D3 /* left_arrow_calender.png in Resources */,
+				0691AAFB1C84611D005FF8D3 /* wallmart.png in Resources */,
+				0691AAF71C84611D005FF8D3 /* sephora.png in Resources */,
+				0691AAF11C84611D005FF8D3 /* Home.storyboard in Resources */,
+				0691AABF1C846109005FF8D3 /* green.png in Resources */,
+				0691AAC01C846109005FF8D3 /* red.png in Resources */,
+				0691AB091C846125005FF8D3 /* Login&Register.storyboard in Resources */,
+				0691AB051C846125005FF8D3 /* field.png in Resources */,
+				0691AB061C846125005FF8D3 /* login_button.png in Resources */,
 				067603FD1C8056B200B4F7B5 /* LaunchScreen.storyboard in Resources */,
+				0691AAC21C846109005FF8D3 /* Wishlist.storyboard in Resources */,
+				0691AADD1C846115005FF8D3 /* thin_blue_bar.png in Resources */,
+				0691AAF41C84611D005FF8D3 /* buttom_bar.png in Resources */,
+				0691AAC11C846109005FF8D3 /* top_bar.png in Resources */,
+				0691AAF81C84611D005FF8D3 /* star.png in Resources */,
+				0691AB081C846125005FF8D3 /* logo.png in Resources */,
+				0691AADE1C846115005FF8D3 /* top_thin_blue_bar.png in Resources */,
+				0691AAF61C84611D005FF8D3 /* Hallmark.png in Resources */,
+				0691AAF51C84611D005FF8D3 /* card.png in Resources */,
+				0691AAF91C84611D005FF8D3 /* the_home.png in Resources */,
+				0691AB071C846125005FF8D3 /* login_view.png in Resources */,
+				0691AADA1C846115005FF8D3 /* event_pic.png in Resources */,
+				0691AAD71C846115005FF8D3 /* Event.storyboard in Resources */,
 				067603FA1C8056B200B4F7B5 /* Assets.xcassets in Resources */,
-				067603F81C8056B200B4F7B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +471,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067603F51C8056B200B4F7B5 /* ViewController.m in Sources */,
+				0691AAD81C846115005FF8D3 /* EventsTableViewCell.m in Sources */,
+				0691AAD51C846115005FF8D3 /* CalendarView.m in Sources */,
+				0691AB0A1C846125005FF8D3 /* LoginViewController.m in Sources */,
+				0691AAC41C846109005FF8D3 /* WishlistViewController.m in Sources */,
+				0691AAF21C84611D005FF8D3 /* HomeCollectionViewCell.m in Sources */,
+				0691AAC31C846109005FF8D3 /* WishlistCollectionViewCell.m in Sources */,
 				067603F21C8056B200B4F7B5 /* AppDelegate.m in Sources */,
 				067603EF1C8056B200B4F7B5 /* main.m in Sources */,
+				0691AAF01C84611D005FF8D3 /* CardDetailsViewController.m in Sources */,
+				0691AAD61C846115005FF8D3 /* CustomCalendarViewController.m in Sources */,
+				0691AAF31C84611D005FF8D3 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +517,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		067603F61C8056B200B4F7B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				067603F71C8056B200B4F7B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		067603FB1C8056B200B4F7B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -344,7 +545,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -366,6 +568,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "651b16f3-67f1-484b-9fa2-1bf3cca8e6ac";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,7 +591,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -403,6 +607,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "651b16f3-67f1-484b-9fa2-1bf3cca8e6ac";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -413,10 +618,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
 				INFOPLIST_FILE = MyGiftCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Spellad.MyGiftCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "651b16f3-67f1-484b-9fa2-1bf3cca8e6ac";
 			};
 			name = Debug;
 		};
@@ -424,10 +633,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
 				INFOPLIST_FILE = MyGiftCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Spellad.MyGiftCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "651b16f3-67f1-484b-9fa2-1bf3cca8e6ac";
 			};
 			name = Release;
 		};
@@ -498,6 +711,7 @@
 				067604191C8056B200B4F7B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0676041A1C8056B200B4F7B5 /* Build configuration list for PBXNativeTarget "MyGiftCardTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +720,7 @@
 				0676041C1C8056B200B4F7B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0676041D1C8056B200B4F7B5 /* Build configuration list for PBXNativeTarget "MyGiftCardUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +729,7 @@
 				0676041F1C8056B200B4F7B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

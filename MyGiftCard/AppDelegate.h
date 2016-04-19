@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomeViewController.h"
+#import "WishlistViewController.h"
+#import "CustomCalendarViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
